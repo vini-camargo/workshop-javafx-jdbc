@@ -8,4 +8,6 @@ module workshopJavafxJdbc {
 	requires javafx.web;
 	
 	opens application to javafx.graphics, javafx.fxml;
+	
+	opens gui to javafx.fxml;
 }
