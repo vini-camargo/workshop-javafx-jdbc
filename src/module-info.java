@@ -6,7 +6,9 @@ module workshopJavafxJdbc {
 	requires javafx.media;
 	requires javafx.swing;
 	requires javafx.web;
-	
+	requires java.sql;
+	requires mysql.connector;
+
 	opens application to javafx.graphics, javafx.fxml;
 	
 	opens gui to javafx.controls, javafx.base, javafx.fxml, javafx.graphics, javafx.media, javafx.swing, javafx.web;
@@ -14,4 +16,5 @@ module workshopJavafxJdbc {
 	opens model.entities to javafx.controls, javafx.base, javafx.fxml, javafx.graphics, javafx.media, javafx.swing, javafx.web;
 	
 	opens model.services to javafx.controls, javafx.base, javafx.fxml, javafx.graphics, javafx.media, javafx.swing, javafx.web;
+
 }
