@@ -10,4 +10,8 @@ module workshopJavafxJdbc {
 	opens application to javafx.graphics, javafx.fxml;
 	
 	opens gui to javafx.controls, javafx.base, javafx.fxml, javafx.graphics, javafx.media, javafx.swing, javafx.web;
+	
+	opens model.entities to javafx.controls, javafx.base, javafx.fxml, javafx.graphics, javafx.media, javafx.swing, javafx.web;
+	
+	opens model.services to javafx.controls, javafx.base, javafx.fxml, javafx.graphics, javafx.media, javafx.swing, javafx.web;
 }
